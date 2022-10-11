@@ -14,14 +14,13 @@ class MyApp extends StatelessWidget {
       title: 'Qr Scanner',
       initialRoute: 'home',
       routes: {
-        'home': (_)=> HomePage(),
-        'map': (_)=> MapPage(),
+        'home': (_) => HomePage(),
+        'map': (_) => MapPage(),
       },
       theme: ThemeData(
-        primaryColor: Colors.amber,
-        floatingActionButtonTheme: FloatingActionButtonThemeData(
-          backgroundColor: Colors.amber )
-      ),
+          primaryColor: Colors.amber,
+          floatingActionButtonTheme: const FloatingActionButtonThemeData(
+              backgroundColor: Colors.amber)),
     );
   }
 }
